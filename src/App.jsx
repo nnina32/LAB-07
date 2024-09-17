@@ -1,14 +1,14 @@
 import './App.css'
-import { WapperList } from './componentes/WrapperList';
-import { List } from './componentes/List'
+import { Button } from './componentes/Button'
 
 function App() {
 
+  const buttonText = "Count : ";
+
   return (
     <>
-      <WapperList>
-        <List/>
-      </WapperList>      
+      <h1>LABORATORIO 7</h1>
+      <Button text={buttonText}/>    
     </>
   )
 }
