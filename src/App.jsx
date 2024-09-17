@@ -1,6 +1,6 @@
 import './App.css'
 import { Button } from './componentes/Button'
-import { RandomComponent } from './componentes/RandomComponent';
+import { CompWithProps } from './componentes/CompWithProps';
 
 function App() {
 
@@ -10,16 +10,7 @@ function App() {
     <>
       <h1>LABORATORIO 7</h1>
       <Button text={buttonText}/>   
-      <RandomComponent
-      name= "Juan Perez"
-      age={28}
-      ocupation="Ingeniero" 
-      />
-      <RandomComponent
-      name= "Micaela Santana"
-      age={32}
-      ocupation="Psicologa"
-      />
+      <CompWithProps/>
     </>
   )
 }
